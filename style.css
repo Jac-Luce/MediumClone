@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 0px 100px 15px 100px;
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid lightgrey;
+    box-shadow: 1px  lightgrey;
+    
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+.search-user img {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.search-user {
+    display: flex;
+    align-items: center;
+}
+
+.search-user i , input {
+    padding: 5px;
+    color: gray;
+}
+
+.search-user input {
+    border-radius: 20px;
+    width: 160px; 
+    border-color: gray;
+}
+
+.subject {
+    display: flex;
+    padding-top: 50px;
+    
+}
+
+.subject1{
+    width: 60%;
+    height: auto;
+}
+
+.subject-left {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-right: 0.5px solid lightgrey;
+}
+
+.subject-left2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.topbar {
+    display: flex;
+    border-bottom: 0.5px solid lightgrey;
+    width: 650px;
+}
+
+.topbar p {
+    padding-right: 20px;
+}
+
+.topbar p:first-child {
+    color: lightgrey;
+}
+
+.topbar p:last-child {
+    border-bottom: 0.5px solid black;
+}
+
+.in_subject-left {
+    width: 75%;
+}
+
+
+
+.firstbox{
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+
+.first-title {
+    display: flex;
+    align-items: center;
+}
+
+.first-title img {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+
+.first-title h6{
+    padding-left: 10px;
+}
+
+.first-content {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    height: 100px;
+}
+
+.first-content p{
+    padding-top: 5px;
+    color: gray;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+}
+
+.more-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-info ul, li {
+    display: inline;
+    color: gray;
+}
+
+.more-info li {
+    padding-right: 5px;
+    font-size: 11px;
+}
+
+.more-info input {
+    width: 40px;
+    text-align: center;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 40px;
+    font-size: 11px;
+}
+
+.fa-regular {
+    color: gray;
+    padding-right: 7px;
+}
+
+.reload-input button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 3px;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    right: 900px;
+    bottom: 95px;
+}
+
+.img-subjectleft img {
+    height: 120px;
+    width: 190px;
+}
+
+.img-subjectleft{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    right: 100px;
+
+}
+
+.subject-right {
+    display: flex;
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-right-box {
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.under-first-right-box {
+    display: flex;  
+    justify-content: center; 
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.under-first-right-box img:first-child {
+    height: 30px;
+    padding-right: 7px;
+}
+
+.under-first-right-box img:last-child {
+    height: 30px;
+    padding-left: 5px;
+}
+
+.under-first-right-box span {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.second-right-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 17px;
+}
+
+.button-right {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button-right img {
+    height: 30px;
+}
+
+.button-right button {
+    width: 200px;
+    padding: 5px;
+    background-color: white;
+    border: 0.5px solid lightgray;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.link-right {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.link-right a {
+    color: gray;
+}
+
+.right-second{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    
+}
+
+.button-right2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button-right2 button {
+    padding: 7px;
+    height: 40px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.button1 {
+    width: 100px;
+}
+
+.button2 {
+    width: 80px;
+}
+
+.button3 {
+    width: 90px;
+}
+
+.button4 {
+    width: 60px;
+}
+
+.follow {
+    padding-top: 20px;
+    display: flex;
+}
+.user img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.lessig1 {
+    padding-left: 20px;
+    padding-right: 95px;
+}
+
+.lessig1 p {
+    padding-top: 5px;
+    font-size: 13px;
+    color: gray;
+}
+.lessig {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.lessig p {
+    padding-top: 5px;
+    font-size: 13px;
+    color: gray;
+}
+
+.follow-button {
+    background-color: white;
+    width: 80px;
+    padding: 7px;
+    border-radius: 20px;
+    border-color: lightgray;
+}
+
+.saved {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.theh4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.star {
+    font-size: 12px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.star span {
+    padding-right: 10px;
+    
+}
+
+.seelink {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.seelink a {
+    color: green;
+    text-decoration: none;
+}
+
+.under-a {
+    font-size: 13px;
+}
+
+.under-a a {
+    padding: 20px 30px 20px 0px;
+    color: gray;
+    text-decoration: none;
+    
+}
